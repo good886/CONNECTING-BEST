@@ -1,0 +1,97 @@
+﻿.contenido {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+
+.seccion {
+    background: navy;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tituloCelda {
+    text-align: right;
+}
+
+.contenidoCelda {
+    text-align: left;
+}
+
+
+.rotulo {
+    color: black;
+    font: 100% Tahoma;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+.form-titulo {
+    width: 100%;
+    clear: both;
+    background: #F5F5F5;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-titulo-titulo {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+}
+
+.form-titulo-sub {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #A4A4A4;
+}
+
+.form-linea {
+    color: #F5F5F5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/* ----------- Nuevo diseño------------- */
+
+.form-envolver-pagina {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.layoutGroupBoxCaption {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1b4a91;
+}
+
+.form-ocultar-elemento {
+    display: none;
+}
+
+.form-titulo-principal {
+    clear: both;
+    font: 16px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #1b4a91;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 10px;   
+}
+

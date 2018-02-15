@@ -1,0 +1,64 @@
+﻿.per-prod-Titulo {
+    width: 100%;
+    clear: both;
+    background: #F5F5F5;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.per-prod-titulo {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    padding-bottom: 5px !important;
+}
+
+.per-prod-subTitulo {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #A4A4A4;
+}
+
+.per-prod-barra {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-left: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 16px;
+    background: white;
+    border: solid lightgray 1px;
+}
+.per-prod-barraBoton {
+    float: left;
+    padding-right: 1px;
+}
+
+.per-prod-barraLista {
+    float: left;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-right: 1px;
+}
+
+.per-prod-datos {
+    width: 100%;
+    clear: both;
+    background: white;        
+    padding-left: 2px;
+    padding-right: 16px;
+    /*height: 100%!important;
+        overflow: auto;
+    min-height: 100% !important;*/
+}
+
+.per-prod-datos-header {
+    height: 40px;
+}

@@ -1,0 +1,1800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAceptarMsgResource1.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnAceptarMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.EditFormLayoutProperties.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="gridMatchResource1.EditFormLayoutProperties.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="gridMatchResource1.Settings.GroupFormat" xml:space="preserve">
+    <value>{1} {2}</value>
+  </data>
+  <data name="gridMatchResource1.Settings.GroupSummaryTextSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ApplyFilterButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.CancelButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ClearFilterButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.DeleteButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.EditButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.HideAdaptiveDetailButton.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.HideAdaptiveDetailButton.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.HideAdaptiveDetailButton.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.HideAdaptiveDetailButton.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.HideAdaptiveDetailButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.NewButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.SearchPanelApplyButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.SearchPanelClearButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.SelectButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ShowAdaptiveDetailButton.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ShowAdaptiveDetailButton.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ShowAdaptiveDetailButton.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ShowAdaptiveDetailButton.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.ShowAdaptiveDetailButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsCommandButton.UpdateButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsFilterControl.TextTabText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsFilterControl.VisualTabText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.AllButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsPager.AllButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.CurrentPageNumberFormat" xml:space="preserve">
+    <value>[{0}]</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.FirstPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsPager.FirstPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.LastPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsPager.LastPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.NextPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsPager.NextPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.PageNumberFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.PageSizeItemSettings.AllItemText" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.PageSizeItemSettings.Caption" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.PrevPageButton.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsPager.PrevPageButton.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.Summary.AllPagesText" xml:space="preserve">
+    <value>Pages: {0} - {1} ({2} items)</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.Summary.EmptyText" xml:space="preserve">
+    <value>No data to paginate</value>
+  </data>
+  <data name="gridMatchResource1.SettingsPager.Summary.Text" xml:space="preserve">
+    <value>Page {0} of {1} ({2} items)</value>
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandApplyFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandApplySearchPanelFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandBatchEditCancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandBatchEditUpdate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandCancel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandClearFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandClearSearchPanelFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandDelete" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandEdit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandHideAdaptiveDetail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandNew" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandSelect" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandShowAdaptiveDetail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CommandUpdate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ConfirmDelete" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ConfirmOnLosingBatchChanges" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuClearFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuClearGrouping" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuClearSorting" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuCollapseDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuCollapseRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuDeleteRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuEditRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuExpandDetailRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuExpandRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuFullCollapse" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuFullExpand" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuGroupByColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuGroupSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuHideColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuNewRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuRefresh" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowCustomizationWindow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowFilterEditor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowFilterRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowFilterRowMenu" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowFooter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowGroupPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuShowSearchPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSortAscending" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSortDescending" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummaryAverage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummaryCount" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummaryMax" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummaryMin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummaryNone" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuSummarySum" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.ContextMenuUngroupColumn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.CustomizationWindowCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.EmptyDataRow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.EmptyHeaders" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.FilterBarClear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.FilterBarCreateFilter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.FilterControlPopupCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.GroupContinuedOnNextPage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.GroupPanel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterCancelButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterFrom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterLastMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterLastWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterLastYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterNextMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterNextWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterNextYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterOkButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterSelectAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterShowAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterShowBlanks" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterShowNonBlanks" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterThisMonth" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterThisWeek" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterThisYear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterTo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterToday" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterTomorrow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.HeaderFilterYesterday" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.PopupEditFormCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.SearchPanelEditorNullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.SettingsText.Title" xml:space="preserve">
+    <value>Artesanía</value>
+  </data>
+  <data name="gridMatchResource1.SummaryText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridMatchResource1.ToolTip" xml:space="preserve">
+    <value>Marque los productos de su interes</value>
+  </data>
+  <data name="GridViewBandColumnResource1.Caption" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="GridViewBandColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewBandColumnResource2.Caption" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="GridViewBandColumnResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewBandColumnResource3.Caption" xml:space="preserve">
+    <value>Acabado</value>
+  </data>
+  <data name="GridViewBandColumnResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.Caption" xml:space="preserve">
+    <value>Clásico</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource1.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.Caption" xml:space="preserve">
+    <value>Hilo Plástico</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource10.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.Caption" xml:space="preserve">
+    <value>Material Reciclado</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource11.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.Caption" xml:space="preserve">
+    <value>Cereria</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource12.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.Caption" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource13.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.Caption" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource14.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.Caption" xml:space="preserve">
+    <value>Sencillo</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource15.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.Caption" xml:space="preserve">
+    <value>Contemporáneo</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource2.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource2.ToolTip" xml:space="preserve">
+    <value>Estilo Contemporáneo</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.Caption" xml:space="preserve">
+    <value>Rústico</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource3.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.Caption" xml:space="preserve">
+    <value>Madera</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource4.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.Caption" xml:space="preserve">
+    <value>Textil</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource5.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.Caption" xml:space="preserve">
+    <value>Cuero</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource6.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.Caption" xml:space="preserve">
+    <value>Vidrio</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource7.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.Caption" xml:space="preserve">
+    <value>Hierro Forjado</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource8.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.Caption" xml:space="preserve">
+    <value>Fibra Natural</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageChecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageChecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageGrayed.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageGrayed.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageGrayed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUnchecked.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUnchecked.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUnchecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUndefined.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUndefined.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayImageUndefined.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayTextChecked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayTextGrayed" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayTextUnchecked" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.DisplayTextUndefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataCheckColumnResource9.PropertiesCheckEdit.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="GridViewDataCheckColumnResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.Caption" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.PropertiesHyperLinkEdit.DisplayFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.PropertiesHyperLinkEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.PropertiesHyperLinkEdit.Text" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.PropertiesHyperLinkEdit.TextFormatString" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="GridViewDataHyperLinkColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.Caption" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="GridViewDataTextColumnResource1.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.Caption" xml:space="preserve">
+    <value>IdArtesania</value>
+  </data>
+  <data name="GridViewDataTextColumnResource2.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.Caption" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="GridViewDataTextColumnResource3.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.Caption" xml:space="preserve">
+    <value>CumpleConCertificaciones</value>
+  </data>
+  <data name="GridViewDataTextColumnResource4.EditFormSettings.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.NullDisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.PropertiesTextEdit.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridViewDataTextColumnResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.ContentUrlIFrameTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterText" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="popMensajesResource1.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderText" xml:space="preserve">
+    <value>Notificación de Mensajes</value>
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PopupControlContentControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtMensajeResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtMensajeResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+</root>

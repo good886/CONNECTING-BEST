@@ -1,0 +1,109 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Root.master.cs" Inherits="Connecting.Web.RootMaster" %>
+
+<%-- DXCOMMENT: Page Root.master is a master page that contains the root layout (it includes Header, Cental Area, and Footer) --%>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+    <link rel="Stylesheet" href="Content/css/Productos.css" type="text/css" />
+    <link rel="Stylesheet" href="Content/css/Forms.css" type="text/css" />
+<%--    <link rel="Stylesheet" href="Content/css/RegistroComprador.css" type="text/css" />--%>
+</head>
+<body runat="server" id="Body">
+    <form id="form1" runat="server">
+        <dx:ASPxPanel ID="HeaderPane" runat="server" FixedPosition="WindowTop" ClientInstanceName="headerPane" CssClass="headerPane" Collapsible="true">
+            <SettingsAdaptivity CollapseAtWindowInnerWidth="500" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+                <ExpandedPanel CssClass="expandedPanel"></ExpandedPanel>
+                <ExpandBar CssClass="bar"></ExpandBar>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <div class="headerTop">
+                        <img src="Content/Images/Logo Master Match2.png" style="width: 200px; height: 100%; margin-bottom: -4px;" />
+                    </div>
+
+                    <div class="headerUserInfo">
+                        <dx:ASPxLabel ID="lblNombreUsuario" runat="server" CssClass="headerUserInfoName"></dx:ASPxLabel><br/>
+                        <dx:ASPxLabel ID="lblUltimoAcceso" runat="server" CssClass="headerUserInfoAccess"></dx:ASPxLabel>
+                    </div>
+
+                    <div class="headerMenu">
+                        <dx:ASPxMenu ID="HeaderMenu" runat="server" ClientInstanceName="headerMenu" ItemAutoWidth="False" Width="100%"
+                            EnableTheming="True" Theme="Moderno">
+                            <Items>
+                                <dx:MenuItem Text="Notificaciones">
+                                    <Image Url="~/Content/Images/Notificacion.png" UrlHottracked="~/Content/Images/Notificacion hover.png"></Image>
+                                    <ItemStyle>
+                                        <%--<HoverStyle BackColor="#BBDEFB" ForeColor="Black"></HoverStyle>--%>
+                                    </ItemStyle>
+                                </dx:MenuItem>
+                                <dx:MenuItem Text="Mi Perfil">
+                                    <Image Url="~/Content/Images/Perfil usuario.png" UrlHottracked="~/Content/Images/Perfil usuario hover.png"></Image>
+                                    <ItemStyle>
+                                        <%--<HoverStyle BackColor="#BBDEFB" ForeColor="Black"></HoverStyle>--%>
+                                    </ItemStyle>
+                                </dx:MenuItem>
+                                <dx:MenuItem Text="Cerrar Sesion" ToolTip="Salir de la aplicación" NavigateUrl="~/FormCerrarSesion.aspx">
+                                    <Image Url="~/Content/Images/Cerrar Sesion.png" UrlHottracked="~/Content/Images/Cerrar sesion hover4.png"></Image>
+                                    <ItemStyle>
+                                        <%--<HoverStyle BackColor="#BBDEFB" ForeColor="Black"></HoverStyle>--%>
+                                        <%--<HoverStyle BackColor="#FF5252" ForeColor="White"></HoverStyle>--%>
+                                    </ItemStyle>
+                                </dx:MenuItem>
+                            </Items>
+                        </dx:ASPxMenu>
+                    </div>
+                </dx:PanelContent>
+            </PanelCollection>
+            <ExpandBarTemplate>
+                <img src="Content/Images/Logo Master Match.png" style="width: 200px; height: 100%; margin-bottom: -4px; height: 100px;" />
+            </ExpandBarTemplate>
+        </dx:ASPxPanel>
+
+        <script type="text/javascript">
+            function updateHeaderMenuOrientation() {
+                var orientation = headerPane.IsExpandable() ? 'Vertical' : 'Horizontal';
+                if (orientation !== headerMenu.GetOrientation())
+                    headerMenu.SetOrientation(orientation);
+            }
+        </script>
+
+        <dx:ASPxGlobalEvents runat="server">
+            <ClientSideEvents ControlsInitialized="updateHeaderMenuOrientation" BrowserWindowResized="updateHeaderMenuOrientation" />
+        </dx:ASPxGlobalEvents>
+
+
+        <dx:ASPxPanel ID="MainPane" runat="server" CssClass="mainContentPane">
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <asp:ContentPlaceHolder ID="Content" runat="server" />
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+        <dx:ASPxPanel ID="FooterPane" runat="server" FixedPosition="WindowBottom" ClientInstanceName="footerPane"
+            CssClass="footerPane">
+            <SettingsAdaptivity HideAtWindowInnerWidth="500" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <div class="footerMenu">
+                        <img src="Content/Images/logo_agexport_white.png" style="width: 175px; height: 75px;" />
+                    </div>
+                    <%-- <div class="copyright">
+                        <dx:ASPxLabel ID="ASPxLabel2" runat="server"></dx:ASPxLabel>
+                    </div>--%>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<%@ Master Language="C#" MasterPageFile="~/Root.master" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Connecting.Web.MainMaster" %>
+
+<%-- DXCOMMENT: Page Main.master is a master page that contains central area layout --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+    <dx:ASPxPanel ID="LeftPane" runat="server" FixedPosition="WindowLeft" ClientInstanceName="leftPane" CssClass="leftPane" Collapsible="true">
+        <SettingsAdaptivity CollapseAtWindowInnerWidth="1023" />
+        <Styles>
+            <Panel CssClass="panel"></Panel>
+        </Styles>
+        <PanelCollection>
+            <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                <div class="leftPanel">
+                    <dx:ASPxNavBar ID="mainMenu" runat="server" AutoCollapse="True" EnableAnimation="True" Width="100%" BackColor="#303F9F">
+                        <GroupHeaderStyle BackColor="#3F51B5" ForeColor="white" Font-Bold="True">
+                            <Paddings PaddingTop="10px" />
+                            <%--                            <Border BorderColor="#303F9F" BorderStyle="Solid" BorderWidth="1px" />--%>
+                            <Border BorderStyle="None"></Border>
+                        </GroupHeaderStyle>
+                        <GroupContentStyle BackColor="#BBDEFB" ForeColor="black">
+                        </GroupContentStyle>
+                        <ItemStyle>
+                            <Border BorderColor="#BBDEFB" BorderStyle="Solid" BorderWidth="1px" />
+                        </ItemStyle>
+                        <Border BorderWidth="0px" />
+                        <Paddings Padding="0px" />
+                        <Groups>
+                            <dx:NavBarGroup Text="Catalogos">
+                                <CollapseImage Url="~/Content/Images/Catalogo.png"></CollapseImage>
+                                <ExpandImage Url="~/Content/Images/Catalogo.png"></ExpandImage>
+                                <Items>
+                                    <dx:NavBarItem Text="Actividad Comercial" NavigateUrl="~/FormActividadComercial.aspx"></dx:NavBarItem>
+                                    <dx:NavBarItem Text="Certificacion" NavigateUrl="~/FormCertificacion.aspx"></dx:NavBarItem>
+                                    <dx:NavBarItem Text="Pais" NavigateUrl="~/FormPais.aspx"></dx:NavBarItem>
+                                </Items>
+                            </dx:NavBarGroup>
+                            <dx:NavBarGroup Text="Productos">
+                                <CollapseImage Url="~/Content/Images/Productos.png"></CollapseImage>
+                                <ExpandImage Url="~/Content/Images/Productos.png"></ExpandImage>
+                                <Items>
+                                    <dx:NavBarItem Text="Categoria" NavigateUrl="~/FormCategoriaProducto.aspx"></dx:NavBarItem>
+                                    <dx:NavBarItem Text="Subcategoria" NavigateUrl="~/FormTipoProducto.aspx"></dx:NavBarItem>
+                                    <dx:NavBarItem Text="Producto" NavigateUrl="~/FormProducto.aspx"></dx:NavBarItem>
+                                </Items>
+                            </dx:NavBarGroup>
+                            <dx:NavBarGroup Text="Seguridad">
+                                <CollapseImage Url="~/Content/Images/Seguridad.png"></CollapseImage>
+                                <ExpandImage Url="~/Content/Images/Seguridad.png"></ExpandImage>
+                                <Items>
+                                    <dx:NavBarItem Text="Usuarios" NavigateUrl="~/FormUsuarioExterno.aspx"></dx:NavBarItem>
+                                </Items>
+                            </dx:NavBarGroup>
+                            <dx:NavBarGroup Text="Administración">
+                                <CollapseImage Url="~/Content/Images/Administracion.png"></CollapseImage>
+                                <ExpandImage Url="~/Content/Images/Administracion.png"></ExpandImage>
+                                <Items>
+                                    <dx:NavBarItem Text="Compradores" NavigateUrl="~/FormCompradorLista.aspx"></dx:NavBarItem>
+                                    <dx:NavBarItem Text="Socios" NavigateUrl="~/FormSocioLista.aspx"></dx:NavBarItem>
+                                </Items>
+                            </dx:NavBarGroup>
+                        </Groups>
+                    </dx:ASPxNavBar>
+                </div>
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxPanel>
+
+    <div class="contentPane">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+
+
+</asp:Content>

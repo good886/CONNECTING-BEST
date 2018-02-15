@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxFormLayout1Resource1.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="ASPxFormLayout1Resource1.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ASPxFormLayout1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarCambioClaveResource1.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarCambioClaveResource1.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarCambioClaveResource1.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarCambioClaveResource1.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarCambioClaveResource1.Text" xml:space="preserve">
+    <value>Cambiar Password</value>
+  </data>
+  <data name="btnAceptarCambioClaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAceptarMsgResource1.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnAceptarMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarCambioClaveResource1.Image.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarCambioClaveResource1.Image.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarCambioClaveResource1.Image.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarCambioClaveResource1.Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarCambioClaveResource1.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarCambioClaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource1.Caption" xml:space="preserve">
+    <value>Layout Group</value>
+  </data>
+  <data name="LayoutGroupResource1.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource1.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource1.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource1.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource2.Caption" xml:space="preserve">
+    <value>Layout Group</value>
+  </data>
+  <data name="LayoutGroupResource2.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource2.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource2.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutGroupResource2.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemNestedControlContainerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemNestedControlContainerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemNestedControlContainerResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemNestedControlContainerResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemNestedControlContainerResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource1.Caption" xml:space="preserve">
+    <value>Clave actual:</value>
+  </data>
+  <data name="LayoutItemResource1.FieldName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource1.HelpText" xml:space="preserve">
+    <value>Ingrese su clave actual</value>
+  </data>
+  <data name="LayoutItemResource1.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource1.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource1.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource1.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource2.Caption" xml:space="preserve">
+    <value>Nueva clave</value>
+  </data>
+  <data name="LayoutItemResource2.FieldName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource2.HelpText" xml:space="preserve">
+    <value>Mínimo (8) caracteres, debe contener al menos una letra y un numero</value>
+  </data>
+  <data name="LayoutItemResource2.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource2.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource2.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource2.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource3.Caption" xml:space="preserve">
+    <value>Confirmar clave</value>
+  </data>
+  <data name="LayoutItemResource3.FieldName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource3.HelpText" xml:space="preserve">
+    <value>Ingrese nuevamente la clave</value>
+  </data>
+  <data name="LayoutItemResource3.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource3.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource3.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource3.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.Caption" xml:space="preserve">
+    <value>Layout Item</value>
+  </data>
+  <data name="LayoutItemResource4.FieldName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource4.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.Caption" xml:space="preserve">
+    <value>Layout Item</value>
+  </data>
+  <data name="LayoutItemResource5.FieldName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.TabImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.TabImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.TabImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutItemResource5.TabImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClavesNoCoincidenResource1.Text" xml:space="preserve">
+    <value>La nueva clave no coincide con la confirmación</value>
+  </data>
+  <data name="lblClavesNoCoincidenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNivel1Resource1.Text" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="lblNivel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNivel2Resource1.Text" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="lblNivel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNivel3Resource1.Text" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="lblNivel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloResource1.Text" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
+  <data name="lblTituloResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMessagePasswordResource1.Text" xml:space="preserve">
+    <value>Nivel de seguridad</value>
+  </data>
+  <data name="lbMessagePasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CloseButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.CollapseButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.ContentUrlIFrameTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.FooterText" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="popMensajesResource1.HeaderImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.HeaderText" xml:space="preserve">
+    <value>Notificación de Mensajes</value>
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.LoadingPanelImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.MaximizeButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.PinButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.RefreshButtonImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SettingsLoadingPanel.Text" xml:space="preserve">
+    <value>Loading&amp;hellip;</value>
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.SizeGripRtlImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="popMensajesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PopupControlContentControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtClaveActualResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtClaveActualResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.NullText" xml:space="preserve">
+    <value>Clave actual</value>
+  </data>
+  <data name="txtClaveActualResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClaveActualResource1.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Valor Requerido</value>
+  </data>
+  <data name="txtMensajeResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtMensajeResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtMensajeResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMensajeResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.NullText" xml:space="preserve">
+    <value>Confirmar clave</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value>Regular expression validation failed</value>
+  </data>
+  <data name="txtNuevaClaveConfirmarResource1.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Valor Requerido</value>
+  </data>
+  <data name="txtNuevaClaveResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.CaptionSettings.OptionalMark" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="txtNuevaClaveResource1.CaptionSettings.RequiredMark" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtNuevaClaveResource1.DisplayFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.HelpText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.MaskSettings.ErrorText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.MaskSettings.Mask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.NullText" xml:space="preserve">
+    <value>Nueva clave</value>
+  </data>
+  <data name="txtNuevaClaveResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.ErrorImage.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.ErrorImage.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.ErrorImage.IconID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.ErrorImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.ErrorText" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.RegularExpression.ErrorText" xml:space="preserve">
+    <value>Se requiren un mínimo de 8 caracteres</value>
+  </data>
+  <data name="txtNuevaClaveResource1.ValidationSettings.RequiredField.ErrorText" xml:space="preserve">
+    <value>Valor Requerido</value>
+  </data>
+</root>
